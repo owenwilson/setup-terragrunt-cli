@@ -44,6 +44,18 @@ To add terragrunt to your PATH, run:
   source /home/user/.bashrc
 ```
 
+## uninstall
+
+- please review the following steps
+
+```sh
+which terragrunt
+```
+
+```sh
+sudo rm -rf /home/user/.terragrunt
+```
+
 ## references
 
 - please review [doc terragrunt install](https://docs.terragrunt.com/getting-started/install/)
